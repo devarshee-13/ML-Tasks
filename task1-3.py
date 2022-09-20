@@ -8,7 +8,7 @@ Original file is located at
 """
 
 class titanIndex:
-    def _init_(self, titans, height, strength):
+    def __init__(self, titans, height, strength):
         self.titans = titans
         self.height = height
         self.strength = strength
